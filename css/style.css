@@ -1,0 +1,125 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+}
+
+/*-----Start of HEADER-----*/
+.navigation-bar {
+    background-color: rgb(34, 34, 34);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+.logo {
+    margin: 2rem 21% 0 21%;
+}
+.navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin: 2% 20% 1% 20%;
+}
+li {
+margin-right: 5rem;
+}
+a {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+}
+a:hover {
+    color: rgb(151, 151, 151);
+}
+/*-----End of HEADER-----*/
+
+/*-----Start of BODY-----*/
+#info-container {
+    margin: 10% 20% 5% 20%;
+}
+#info-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7em;
+    font-weight: 100;
+    color: rgb(221, 221, 221);
+}
+#info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8em;
+    font-weight: 400;
+    color: rgb(221, 221, 221);
+}
+#reservation-info {
+    margin: 15% 25% 0% 25%;
+    color: rgb(221, 221, 221);
+}
+#input-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin: 0 35% 5% 35%;
+}
+.info-mini-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7em;
+    font-weight: 400;
+    color: rgb(221, 221, 221);
+}
+.info-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    color: rgb(221, 221, 221);
+}
+#menu {
+    display: grid;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10rem;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    bottom: inherit;
+    grid-template-columns: 1fr 1fr;
+}
+.food {
+    margin: 1.5rem;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(221, 221, 221);
+}
+.price {
+    float: right;
+}
+#ul-reservation {
+    color: rgb(221, 221, 221);
+    margin: 0% 25% 2% 25%;
+}
+.input {
+    height: 2rem;
+}
+/*-----End of BODY-----*/
+
+
+/*-----Start of FOOTER-----*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.information {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    color: rgb(221, 221, 221);
+}
+.bigger {
+    font-size: 130%;
+    font-weight: 100;
+}
+/*-----End of FOOTER-----*/

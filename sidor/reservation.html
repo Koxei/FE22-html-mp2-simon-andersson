@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAPIANO - RESERVATION</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="https://vapiano.se/wp-content/uploads/2022/02/vapiano_logo_2.png" width="195" height="41" alt="Vapiano" data-height-percentage="54" data-actual-width="195" data-actual-height="41">
+                </a>
+            </div>
+            <ul class="navigation">
+                <li><a href="../sidor/menu.html">Menu</a></li>
+                <li><a href="../sidor/reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <p id="reservation-info" class="info-paragraph">
+            We  <b>only take booking requests for groups of at least 4 people</b>. If there are fewer than 4 of you, you are warmly welcome to us without a reservation! - we have plenty of tables and always leave room for spontaneous drop-in visits.
+            <br><br>
+            When you have filled in the form below, the booking request goes directly to the restaurant you want to visit, and they will get back as soon as they can with a booking confirmation and answers to any questions in connection with the booking.
+            <br><br><br><br>
+            Please note that:
+            <br><br>
+            <ul>
+                <li id="ul-reservation" class="info-paragraph">
+                    the days when events are taking place at Malmö Arena and Friends Arena, we have chosen <b>NOT</b> to accept table reservations at the adjacent restaurants Malmö Emporia and Mall of Scandinavia. On these days, everyone is welcome without a reservation.
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div id="input-grid">
+        <input type="text" id="name" class="input" placeholder="Your name">
+        <input type="text" id="phone" class="input" placeholder="Your phone number">
+        <input type="date" id="date" class="input" placeholder="Date and time of booking">
+        <input type="number" id="people" class="input" placeholder="Number of people">
+        <input type="email" id="email" class="input" placeholder="Email address">
+        <select id="restaurant">
+            <option value="old town">Old Town</option>
+            <option value="">Control Plan</option>
+            <option value="">Vasagatan</option>
+            <option value="">Kungsport, Gothenburg</option>
+            <option value="">Mall of Scandinavia</option>
+            <option value="">Emporia, Malmö</option>
+        </select>
+        <textarea id="textarea" rows="15" cols="80" placeholder="Message"></textarea>
+        <input type="submit" id="submit" class="input" value="Submit">
+    </div>
+    <footer>
+        <p class="information">
+            <span class="bigger">Head office</span>
+            <br>
+            Vapiano Sweden
+            <br>
+            Biblioteksgatan 29
+            <br>
+            114 35 Stockholm
+            <br><br>
+            info@vapiano.se
+        </p>
+    </footer>
+</body>
+</html>
