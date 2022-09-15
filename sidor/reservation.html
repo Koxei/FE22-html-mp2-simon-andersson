@@ -37,12 +37,18 @@
         </p>
     </section>
     <form id="input-grid">
-        <input type="text" id="name" class="input" placeholder="Your name">
-        <input type="text" id="phone" class="input" placeholder="Your phone number">
-        <input type="date" id="date" class="input" placeholder="Date and time of booking">
-        <input type="number" id="people" class="input" placeholder="Number of people">
-        <input type="email" id="email" class="input" placeholder="Email address">
-        <select id="restaurant">
+        <label for="" class="info-paragraph">Name:</label>
+        <input type="text" name="name" id="name" class="input" placeholder="Your name">
+        <label for="" class="info-paragraph">Phone Number:</label>
+        <input type="text" name="phone" id="phone" class="input" placeholder="Your phone number">
+        <label for="" class="info-paragraph">Date:</label>
+        <input type="date" name="date" id="date" class="input" placeholder="Date and time of booking">
+        <label for="" class="info-paragraph">Number of people:</label>
+        <input type="number" name="people" id="people" class="input" placeholder="Number of people">
+        <label for="" class="info-paragraph">Email:</label>
+        <input type="email" name="email" id="email" class="input" placeholder="Email address">
+        <label for="" class="info-paragraph">Restaurant:</label>
+        <select id="restaurant" name="restaurant">
             <option value="old town">Old Town</option>
             <option value="">Control Plan</option>
             <option value="">Vasagatan</option>
@@ -50,7 +56,8 @@
             <option value="">Mall of Scandinavia</option>
             <option value="">Emporia, Malmö</option>
         </select>
-        <textarea id="textarea" rows="15" cols="80" placeholder="Message"></textarea>
+        <label for="message" class="info-paragraph">Message:</label>
+        <textarea id="textarea" name="message" rows="15" cols="80" placeholder="Message"></textarea>
         <input type="submit" id="submit" class="input" value="Submit">
     </form>
     <footer>
